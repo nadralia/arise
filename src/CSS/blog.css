@@ -1,0 +1,12 @@
+.blog_full {
+  overflow: hidden;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.blog_full_cp .blog_full {
+  background-size: cover;
+  padding: 40px 0 30px;
+  margin-bottom: 45px;
+  position: relative;
+  min-height: 460px;
+}

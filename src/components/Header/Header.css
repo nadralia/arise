@@ -1,0 +1,128 @@
+* {
+  font-family: 'Roboto Slab', serif;
+}
+
+/*color elements*/
+.header {
+  background-color: #fff;
+  height: 16vh;
+}
+.header__content {
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+.header__items {
+  flex: 0.5;
+  margin-top: 25px;
+}
+.header__items > ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+.header__image {
+  flex: 0.25;
+  margin: 13px 0 0 50px;
+  cursor: pointer;
+}
+.header__image > a {
+  text-decoration: none;
+}
+.header__button {
+  flex: 0.25;
+  margin-top: 15px;
+}
+.header__items .header__optionsli {
+  cursor: pointer;
+  font-weight: 400;
+  line-height: 10px;
+  font-size: large;
+}
+.header__items > ul > li > a {
+  color: #111;
+}
+.header__items > ul > li > a:hover {
+  color: #fbb122;
+}
+.header__homeIcon,
+.haeder__campaignsIcon,
+.header__blogIcon {
+  color: gray !important;
+  margin: 0 0 -5px -5px;
+}
+.header__homeIcon:hover,
+.haeder__campaignsIcon:hover,
+.header__blogIco:hover {
+  color: #fbb122 !important;
+}
+.header__dropdown {
+  height: fit-content;
+  position: fixed;
+  margin-top: 32px;
+  width: 12%;
+  padding: 20px 20px;
+  color: #000;
+  min-width: 280px;
+  background-color: #fff;
+  border-top: 3px solid #fbb122;
+  box-shadow: 0px 4px 4px 1px rgb(0 0 0 / 20%);
+  z-index: 100;
+}
+
+.header__dropdown > li {
+  margin-left: 20px;
+  list-style-type: square;
+  font-size: medium;
+  font-weight: 300;
+  margin-top: 10px;
+  z-index: 100;
+}
+.header__dropdown > li > a {
+  color: #111;
+  padding-top: 20px;
+  z-index: 100;
+}
+.header__dropdown > li > a:hover {
+  color: #fbb122;
+  z-index: 100;
+}
+.header__dropdown > li:first-child {
+  margin-top: -10px;
+}
+.header__isactive{
+  color: #fbb122;
+
+}
+
+.header__line {
+  height: 1px;
+  background-color: #ccc;
+  border: none;
+}
+.header__button > a {
+  font-size: 16px;
+  text-transform: none;
+  background: #fbb122;
+  color: #fff !important;
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: 400;
+  padding: 0 20px 0 25px;
+  line-height: 40px;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 50px;
+}
+.header__button > a:hover {
+  background-color: #000;
+}
+
+.header__dots {
+  margin-left: -15px !important;
+  margin-top: 10px !important;
+  cursor: pointer;
+}

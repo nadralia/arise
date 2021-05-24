@@ -1,0 +1,89 @@
+
+.home-section-top{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(12, 153, 54);
+    padding:1em;
+}
+
+.home-left-col>p{
+    color:white;
+}
+
+.home-left-col>h2{
+    color:white;
+    font-family:"Roboto Slab";
+}
+
+.home-right-col{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home-right-col>button{
+    background-color:orange;
+    color:white;
+    padding:0.7em;
+    font-family:"Roboto Slab", serif;
+    font-size:1em;
+}
+
+.home-video-section{
+    padding-top:3em;
+    background-color: white;
+}
+
+.home-video-section-container{
+    display:flex;
+    /* width:95%; */
+    margin:auto;
+}
+
+.vid-section-date{
+    background-color: rgb(46, 39, 39);
+    color:white;
+    border-radius: 12px;
+    width:135px;
+    padding:0.3em;
+}
+
+.home-video-section-left-sect{
+    margin-bottom:2em;
+}
+
+.home-video-section-left-sect>h4{
+    color:orange;
+}
+
+.home-vid-section-heading{
+    display:flex;
+    background-color:white;
+    margin-top:2em;
+    justify-content: center;
+}
+
+.home-video-section-left-sect>p{
+    font-family:sans-serif;
+}
+.home-video-section-left{
+    width: 50%;
+}
+.home-video-section-right{
+    width: 50%;
+}
+.home-video-section-right>iframe{
+    position: relative;
+    width: 100%;
+}
+@media screen and (max-width: 360px) {
+    .home-video-section-container{
+        flex-direction: column;
+    }
+    .home-video-section-left{
+        width: 100%;
+    }
+    .home-video-section-right{
+        width: 100%;
+    }
+}

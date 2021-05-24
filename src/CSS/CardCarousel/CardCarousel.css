@@ -1,0 +1,26 @@
+.home-card-slider-container{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+}
+
+.home-carousel-container{
+    padding-top:3em;
+    padding-bottom: 3em;
+}
+
+.home-carousel-container-div{
+    display:flex;
+    justify-content: center;
+    padding-bottom: 2em;
+    align-content: center;
+}
+
+.home-carousel-container-div-h{
+    font-weight:bolder;
+}
+
+.home-carousel-container-div>p{
+    font-size: 2em;
+    padding-left:0.5em;
+}

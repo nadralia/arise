@@ -1,0 +1,61 @@
+.section_one{
+  background-color:white;
+}
+.sectiontwo_1{
+    font-size:40px;
+    text-align: center;
+    padding-top: 60px;
+    color:rgb(46, 44, 44);
+}
+.section_tw{
+    background-image:url(../../images/join.jpg);
+    background-size: cover;
+    color: white;
+    padding:60px 0;
+    }
+.section_tw_container {
+      padding-right: 30px;
+      padding-left: 30px;
+      text-align:left;
+  } 
+.section_two_titl { 
+    font-size:50px;
+    font-weight: 600;
+    padding-bottom: 25px;
+  }
+  .section_two_hr {
+    float: left;
+    border: none;
+    border-top: 3px solid white;
+    width:18vh;
+}
+.section_two_pp {
+  font-size: 20px;
+  color: #fff;
+  line-height: 30px;
+  font-weight: 300;
+  padding-top: 50px;
+  padding-bottom: 20px;  
+  width:50%;
+  }
+ 
+.section_two_buttonn>a{
+    margin-left: 0 !important;
+}
+@media screen and (max-width: 780px) {
+  .sectiontwo_1{
+    font-size:35px;
+  }
+  .section_two_titl { 
+    font-size:38px;
+  }
+  .section_tw_container {
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: auto;
+    margin-left: auto;
+} 
+.section_two_pp {   
+  width:100%;
+  }
+}         

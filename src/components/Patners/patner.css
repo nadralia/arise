@@ -1,0 +1,10 @@
+.heade{
+    text-align: center;
+    margin: 80px 80px;
+}
+
+@media screen and (max-width: 360px){
+    .heade{
+        margin-top: 450px;
+    }
+}

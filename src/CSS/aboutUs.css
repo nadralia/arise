@@ -1,0 +1,38 @@
+.aboutus{
+    display: flex;
+    justify-content: space-around;
+    padding:40px;
+}
+.aboutus >div{
+    padding:20px;
+    line-height: 2;
+}
+.aboutus_grid{
+    padding:50px;
+}
+.aboutus_grid>h2{
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: lighter;
+    color:black;
+}
+.aboutus h2{
+    font-weight: lighter;
+    color:black;
+}
+@media screen and (max-width: 780px) {  
+    .aboutus{
+        flex-wrap: wrap;
+        padding:10px;
+    }
+    .aboutus >div{
+        padding:10px;
+    }
+    .aboutus_image>img{
+        max-width: 100%;
+        padding-top: 10px;
+    }
+    .aboutus_grid{
+        padding:15px;  
+    }
+}

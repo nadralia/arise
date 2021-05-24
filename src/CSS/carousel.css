@@ -1,0 +1,33 @@
+.carousel__text {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  width: 30rem;
+  text-align: center;
+  position: absolute;
+  z-index: 2;
+  top: 250px;
+  left: 70px;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+@media screen and (max-width: 600px) {
+  .carousel__text {
+    position: absolute;
+    font-size: 10px;
+    width: 20em;
+    left: 60px;
+  }
+  .carousel__text > h1 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 2388px){
+  .carousel__text{
+    position: absolute;
+    top: 600px;
+    left: 250px;
+    width: 30rem;
+  }
+}
